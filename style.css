@@ -93,8 +93,37 @@ main h1{
   color: #FFFFFF;
 }
 .popular-bc{
-  background-color: #d0adfe;
+  background-color: #ececf6;
+  padding: 40px 8%;
 }
+section{
+  text-align: center;
+  padding: 20px;
+  color: #535252;
+}
+.main{
+  display: grid;
+  grid-template-columns: repeat(4,3fr);
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  margin:20px auto;
+  padding: 30px;
+  gap: 25px 50px;
+}
+.left {
+  padding: 20px ;
+  margin: 2px 0px;
+  list-style-position: inside;
+  border: 2px solid rgb(210, 202, 202);
+  border-radius: 6px;
+  background-color: #b4c4f0;
+}
+.left input{
+  border: 1px solid white;
+}
+
+
 footer{
   background-color: #172c40;
   padding: 40px 8%;
@@ -112,6 +141,6 @@ footer{
 footer .bottom{
   padding: 20px;
 }
-footer .bottom p{
+footer .bottom {
   color: #FFFFFF;
 }
