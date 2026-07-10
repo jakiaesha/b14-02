@@ -65,3 +65,30 @@ main h1{
 .image img{
   object-fit: cover;
 }
+.container{
+  text-align: center;
+  padding: 5%;
+}
+.box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width:1200px;
+  margin:40px auto;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  gap: 25px;
+}
+.center{
+    background:#fff;
+    border-radius:12px;
+    padding: 30px;
+    border:1px solid #ddd;
+}
+.point.center p {
+ color: #60A5FA;
+}
+.point .center{
+  background-color: #0e2032;
+  color: #FFFFFF;
+}
